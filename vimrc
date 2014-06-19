@@ -31,6 +31,8 @@ Bundle 'git@github.com:scrooloose/nerdtree.git'
 Bundle 'git@github.com:Raimondi/delimitMate.git'
 Bundle 'hallison/vim-markdown'
 Bundle 'git@github.com:kien/ctrlp.vim.git'
+Bundle 'bling/vim-airline'
+Bundle 'msanders/snipmate.vim'
 
 filetype plugin indent on     " required
 
@@ -44,3 +46,4 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
